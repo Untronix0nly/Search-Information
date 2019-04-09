@@ -1,0 +1,30 @@
+Parsed expression info:
+Operands: ['петропа|вловска€|кре|пость', 'AND', 'санкт|петербурге|на|за€чьем|острове'] 
+Operations: ['VAR', 'AND', 'VAR']
+Parsing expression: петропа|вловска€|кре|пость  AND  санкт|петербурге|на|за€чьем|острове
+Parsing expression.Format expression: AndClause {OR AndClause}.
+Building Expression Tree......
+Parsing AndClause: [Operand {AND Operand}+ ]
+Parsing Operand: [Terminal | (Expression)] 
+Parsing variable:
+Type of Variable: VAR,Value: петропа|вловска€|кре|пость
+Parsing expression: Token Type for operand 1: VAR
+Parsing Operand: [Terminal | (Expression)] 
+Parsing variable:
+Type of Variable: VAR,Value: санкт|петербурге|на|за€чьем|острове
+Parse expression: Token Type for operand 2: VAR
+End Parsing.......
+Complete. Node operation: AND
+Parsing expression: Token Type for term 1: AND
+End Parsing.......
+Complete. Root operation: AND
+Evaluating Expression: петропа|вловска€|кре|пость  AND  санкт|петербурге|на|за€чьем|острове
+Node Type: AND
+Node Type: VAR
+Variable Clause:
+ Name: петропа|вловска€|кре|пость Value: {27}
+Node Type: VAR
+Variable Clause:
+ Name: санкт|петербурге|на|за€чьем|острове Value: {27, 69, 2510}
+AND Result: {27}
+Answer Expression: {27}
